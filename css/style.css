@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container1 {
+  padding: 20px;
+  /* background-image: url(../images/bg-header-desktop.png); */
+  text-align: center;
+}
+
+/* .header-container1 .logo{
+    background-image: url(../images/bg-header-desktop.png);
+    margin-top: -30px;
+} */
+
+.header-container1 h2 {
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  font-family: Bai Jamjuree;
+  font-weight: 500;
+}
+
+.header-container1 p {
+  margin: 10px;
+  border: 10% solid;
+  width: 600px;
+  margin-left: 390px;
+  color: hsl(201, 11%, 66%);
+}
+
+.header-container1 .button-container .custom-button1 {
+  border: 2px solid;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 10px;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 30px;
+  margin-left: 500px;
+}
+/* .header-container .button-container .custom-button1 {
+  border: 2px solid;
+} */
+
+.header-container1 .button-container .custom-button2 {
+  border: 2px solid;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 20px;
+  font-size: 18px;
+  margin: 30px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 30px;
+  margin-left: 750px;
+  margin-top: -55px;
+}
+
+.header-container1 .button-container .custom-button2 {
+  border: 2px solid;
+}
+.header-container1 img {
+  /* width: 150px;
+  margin: 70px; */
+  /* height: 100px;
+  margin-top: 60px;
+  margin-bottom: 20px; */
+  margin: 40px;
+  background-image: url(../images/bg-header-desktop.png);
+}
+
+.contentheader {
+  text-align: center;
+  font-family: Bai Jamjuree;
+  border: 2px;
+  width: 620px;
+  margin-left: 400px;
+}
+
+.contentheader p {
+  color: hsl(201, 11%, 66%);
+}
+
+.imagecontainer img {
+  height: 700px;
+  width: 800px;
+  margin-left: -30px;
+}
+.imagecontainer {
+  display: flex;
+  margin: 15px;
+}
+
+.imagecontainer .image {
+  margin-right: 20px;
+}
+
+/* come back to finish the alignment */
+
+.imagecontainer .imagetext {
+  flex: 1;
+  max-width: 400px;
+
+  /* flex-direction: column; */
+  font-family: Bai Jamjuree;
+  text-align: center;
+  /* margin: 10px; */
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
+.imagecontainer .imagetext h2 {
+  color: hsl(210, 10%, 33%);
+  margin-top: 70px;
+  /* color: green; */
+}
+
+.imagecontainer .imagetext p {
+  color: hsl(201, 11%, 66%);
+}
+
+.contentheader2 {
+  text-align: center;
+  margin-left: 120px;
+  font-family: Bai Jamjuree;
+}
+
+.contentheader2 h2 {
+  margin: 10px;
+  color: hsl(210, 10%, 33%);
+}
+.contentheader2 p {
+  margin: 10px;
+  margin-bottom: 70px;
+  border: 2px;
+  width: 580px;
+  margin-left: 350px;
+  color: hsl(201, 11%, 66%);
+}
+
+.contentheader3 {
+  text-align: center;
+  font-family: Bai Jamjuree;
+  margin: 30px;
+}
+
+.contentheader3 .imageholders {
+  display: flex;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.contentheader3 h2 {
+  font-family: Bai Jamjuree;
+  color: hsl(210, 10%, 33%);
+  margin: 10px;
+}
+
+.contentheader3 p {
+  color: hsl(201, 11%, 66%);
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+.contentheader3 .icons {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.contentheader3 .icons img {
+  height: 40px;
+  width: 300px;
+}
+
+.contentheader3 .imageholders {
+  margin-left: 130px;
+}
+
+.contentheader3 .iconsholder1 {
+  border: 2px;
+  width: 300px;
+  margin-left: 60px;
+}
+
+.contentheader3 .iconsholder1 h3 {
+  color: hsl(210, 10%, 33%);
+  margin: 10px;
+}
+
+.contentheader3 .iconsholder2 {
+  border: 2px;
+  width: 300px;
+  margin-left: 60px;
+}
+
+.contentheader3 .iconsholder2 h3 {
+  color: hsl(210, 10%, 33%);
+  margin: 10px;
+}
+
+.contentheader3 .iconsholder3 {
+  border: 2px;
+  width: 300px;
+  margin-left: 60px;
+}
+
+.contentheader3 .iconsholder3 h3 {
+  color: hsl(210, 10%, 33%);
+  margin: 10px;
+}
+
+/* add the spacing to the images later */
+.brands img {
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.header-container2 h2 {
+  margin: 30px;
+  margin-top: 90px;
+}
+
+.header-container2 .button-container2 .custom-button1 {
+  border: 2px solid;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 10px;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 30px;
+  margin-left: 500px;
+}
+
+.header-container2 .button-container2 .custom-button2 {
+  border: 2px solid;
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 20px;
+  font-size: 18px;
+  margin: 30px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 30px;
+  margin-left: 750px;
+  margin-top: -55px;
+}
+
+.header-container2 p {
+  margin: 40px;
+  border: 10% solid;
+  width: 600px;
+  margin-left: 390px;
+  color: hsl(201, 11%, 66%);
+}
+
+.header-container2 .button-container2 {
+  /* text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px green; */
+}
+
+.header-container2 .custom-button1 {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px green;
+  color: white;
+}
+
+.header-container2 .custom-button2 {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px green;
+  color: white;
+}
+
+.footercontent {
+  /* background-color: hsl(200, 12%, 85%);
+  font-family: Bai Jamjuree; */
+}
+
+.footercontent .logo img {
+  height: 100px;
+  width: 300px;
+}
+
+.logo2 {
+  padding: 30px;
+  /* margin: 20px; */
+  margin-right: 3800px;
+  /* margin-bottom: 100px; */
+}
+
+.footercontent .contentfooter {
+  margin-top: -130px;
+  text-align: left;
+  margin-left: 270px;
+  color: hsl(210, 10%, 33%);
+}
+
+.footercontent .contentfooter h4 {
+  padding: 10px;
+  font-weight: 400;
+}
+
+.contentfooter2 {
+    margin-top: -80px;
+    text-align: left;
+    margin-left: 470px;
+    color: hsl(210, 10%, 33%);
+}
+
+.contentfooter2 h4{
+    padding: 10px;
+    font-weight: 400;
+}
+
+.contentfooter3{
+    margin-top: -80px;
+    text-align: left;
+    margin-left: 670px;
+    color: hsl(210, 10%, 33%);
+}
+
+.contentfooter3 h4{
+    padding: 10px;
+    font-weight: 400;
+}
